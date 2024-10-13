@@ -67,4 +67,16 @@ sudo mount /dev/sdc9 /home/vagrant/Examenes_UTN/Alumno_3/parcial_2
 sudo mount /dev/sdc10 /home/vagrant/Examenes_UTN/Alumno_3/parcial_3
 sudo mount /dev/sdc11 /home/vagrant/Examenes_UTN/profesores
 
-
+sudo su
+cat << FIN >> /etc/fstab
+/dev/sdc1 /home/vagrant ext4 defaults 0 0
+/dev/sdc2 /home/vagrant ext4 defaults 0 0
+/dev/sdc3 /home/vagrant ext4 defaults 0 0
+/dev/sdc5 /home/vagrant ext4 defaults 0 0
+/dev/sdc6 /home/vagrant ext4 defaults 0 0
+/dev/sdc7 /home/vagrant ext4 defaults 0 0
+/dev/sdc8 /home/vagrant ext4 defaults 0 0
+/dev/sdc9 /home/vagrant ext4 defaults 0 0
+/dev/sdc10 /home/vagrant ext4 defaults 0 0
+/dev/sdc11 /home/vagrant ext4 defaults 0 0
+FIN
