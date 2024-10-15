@@ -1,0 +1,4 @@
+Mi IP Publica es: 181.47.117.186
+Mi usuario es: vagrant
+El Hash de mi Usuario es: $y$j9T$Fl6qCiA.0cHXy.CQ82Q0n/$D6sQlu6QlbH9DB4/2RXfY2RK0DrTI4fVzRtbtzYJVT6
+La URL de mi repositorio es: https://github.com/Diegocabj97/UTNFRA_SO_1P2C_2024_Adrian.git
